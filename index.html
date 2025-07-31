@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HerAfriLearn</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>HerAfriLearn</h1>
+        <h3>Find your passion, explore, and stay the course</h3>
+        <div class="search-container">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search for courses"
+          />
+          <button type="button" id="searchBtn">Search</button>
+          <select id="sortSelect">
+            <option value="">Sort by</option>
+            <option value="title">Title (A-Z)</option>
+            <option value="price">Price (Low to High)</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div id="courses"></div>
+      <section id="quote"></section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
